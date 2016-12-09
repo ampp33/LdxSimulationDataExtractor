@@ -14,7 +14,7 @@ public class LdxWebHandler {
 	}
 	
 	public void login(String username, String password) {
-		driver.get("http://ldx.vudat.msu.edu");
+		driver.get("xxx");
 		
 		WebElement usernameField = driver.findElement(By.xpath("//input[contains(@id,'UserName')]"));
 		usernameField.clear();
